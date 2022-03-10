@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #F3F3F3;
+}
+
+header {
+    background: #222222;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+header a {
+    padding: 13px 0px 13px 13px;
+}
+
+.logoAndName {
+    display: flex;
+    align-items: center;
+}
+
+.name {
+    font-weight: 700;
+    font-size: 24px;
+    padding-left: 10px;
+}
+
+.name .pizza {
+    color: #39B24A;
+}
+
+.name .and {
+    margin: -5px;
+}
+
+.name .front {
+    color: #FC200C
+}
+
+header nav ul {
+    display: flex;
+}
+
+main section {
+    padding: 35px 19px;
+    display: flex;
+    background: #E5E5E5;
+    gap: 5px;
+}
+
+.card-izq {
+    flex: 1;
+    background-image: url(../img/delivery.jpg);
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+}
+
+.card-izq h2 {
+    padding: 20px;
+    color: #FC200C;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.card-izq h2 span {
+    color: #fff;
+}
+
+.card-der {
+    flex: 1;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.card-der h2 {
+    text-align: center;
+    padding-top: 26px;
+    padding-bottom: 58px;
+    color: #FC200C;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.card-der .top5 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 74px;
+
+}
+
+.card-der .top5 h3 {
+    padding-bottom: 15px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.card-der .top5 ol li {
+    padding: 5px;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+footer {
+    background: #222222;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 13px 42px 13px 14px;
+}
+
+footer a {
+    display: block;
+    padding: 6px;
+}
+
+footer .name {
+    font-size: 20px;
+}
